@@ -35,3 +35,5 @@
 
 
  -  Sử dụng một trong các công cụ để giả lập:  VM_Ware
+ -  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a452c5d-4e16-43fd-b0d7-72a1ca151455" />
+
