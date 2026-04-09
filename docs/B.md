@@ -29,11 +29,7 @@
 7. Đảm bảo tường lửa trên Ubuntu đã cho phép các cổng 80, 1880, 9630 (Lệnh: sudo ufw allow ...)
  # BÀI LÀM 
  -  Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
-
-
- -  <img width="789" height="70" alt="image" src="https://github.com/user-attachments/assets/b34d44bf-275d-45e4-91e9-b563aefbdc9f" />
-
-
  -  Sử dụng một trong các công cụ để giả lập:  VM_Ware
- -  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1a452c5d-4e16-43fd-b0d7-72a1ca151455" />
+ -  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049e7fd6-f043-4cff-9be2-2b4f0da74132" />
+
 
