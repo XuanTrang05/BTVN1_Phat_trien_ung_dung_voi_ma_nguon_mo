@@ -24,4 +24,21 @@
 # 4. Nhập 2 dòng namespace của cloudflare vào trong trang quản lý DNS record của tên miền đăng ký (vd trên mắt bão)
 - Sau khi ấn đăng nhập vào mắt bão. ấn vào tên miền ( domain)
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33e7aa3a-d08a-4dc7-a7c8-f13dc01cbe52" />
-  
+- Vào quản lý tên miền
+Tìm mục:
+Tên miền (Domains)
+→ Chọn domain (tenban.id.vn)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9a9a8763-b107-43a5-8835-c722d1759f80" />
+- Sửa Nameserver
+Xoá cái cũ:
+ns1.matbao.com  
+ns2.matbao.com
+- Nhập cái mới của Cloudflare:
+- [ luciana.ns.cloudflare.com ]
+- [ patrick.ns.cloudflare.com ]
+- Bấm: Save / Update / Apply
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d652da1-2166-4492-93a0-681f9da04abf" />
+- Sau khi thực hiện các bước đăng ký tên miền và cấu hình Nameserver trên Cloudflare, hệ thống đã hiển thị trạng thái “Active”. Điều này chứng tỏ domain đã được kết nối thành công với Cloudflare và có thể sử dụng để triển khai các dịch vụ web.
+- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc08b528-ceef-4a50-95ee-04552910f1f1" />
+
+
