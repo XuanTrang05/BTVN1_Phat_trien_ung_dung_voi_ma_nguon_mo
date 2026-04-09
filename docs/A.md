@@ -21,3 +21,7 @@
 - [ patrick.ns.cloudflare.com ]
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bf4e3d6a-7592-40fd-9da8-1a0b6dc5b06a" />
 
+# 4. Nhập 2 dòng namespace của cloudflare vào trong trang quản lý DNS record của tên miền đăng ký (vd trên mắt bão)
+- Sau khi ấn đăng nhập vào mắt bão. ấn vào tên miền ( domain)
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33e7aa3a-d08a-4dc7-a7c8-f13dc01cbe52" />
+  
