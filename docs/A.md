@@ -11,3 +11,8 @@
 # kết quả sau khi đăng kí thành công
 <img width="1179" height="2556" alt="image" src="https://github.com/user-attachments/assets/f9f5912f-9315-4e4a-b017-cec9c1aae426" />
 # 2  Đăng ký tài khoản [cloudflare]
+- Vào trang chủ của Cloudflare , nhấn sign in để tạo tài khoản và thực hiện nhập các thông tin theo yêu cầu.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f81abfb0-9c34-4e53-9e79-51504b390373" />
+
+# 3. Thêm domain đã đăng kí vào Cloudflare : nhận 2 dòng namespace
+
