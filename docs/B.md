@@ -95,13 +95,13 @@ sudo apt install docker-compose-v2 -y
 
 5. Cấu hình để docker chạy mà không cần tiền tố sudo
 
-BƯỚC 1: Thêm user vào nhóm docker 
+# BƯỚC 1: Thêm user vào nhóm docker 
 - sudo usermod -aG docker $USER
-BƯỚC 2: Áp dụng thay đổi
+# BƯỚC 2: Áp dụng thay đổi
 - newgrp docker
-BƯỚC 3: TEST
+# BƯỚC 3: TEST
 - docker run hello-world
-KẾT QUẢ:
-đã cấu hình để Docker có thể chạy mà không cần sử dụng sudo bằng cách thêm user vào nhóm docker và áp dụng thay đổi. Sau đó, kiểm tra và chạy container thành công mà không cần sudo.
+# KẾT QUẢ:
+- đã cấu hình để Docker có thể chạy mà không cần sử dụng sudo bằng cách thêm user vào nhóm docker và áp dụng thay đổi. Sau đó, kiểm tra và chạy container thành công mà không cần sudo.
 <img width="1204" height="808" alt="image" src="https://github.com/user-attachments/assets/416b1de7-23f1-46ae-ab3e-d9e4586e4e53" />
 
