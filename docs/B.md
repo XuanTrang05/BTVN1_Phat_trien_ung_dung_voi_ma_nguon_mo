@@ -28,8 +28,45 @@
 6. Tìm hiểu tập lệnh của docker và docker compose
 7. Đảm bảo tường lửa trên Ubuntu đã cho phép các cổng 80, 1880, 9630 (Lệnh: sudo ufw allow ...)
  # BÀI LÀM 
+ 1. Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
  -  Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
  -  Sử dụng một trong các công cụ để giả lập:  VM_Ware
  -  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049e7fd6-f043-4cff-9be2-2b4f0da74132" />
 
+- Cài SSH trong Ubuntu
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/bb46ea9f-e99b-4ca7-8ff7-05b66690b3a0" />
+- khởi động dịch vụ SSH và cấu hình để SSH tự động chạy khi khởi động hệ thống. Sau đó, kiểm tra trạng thái dịch vụ và đảm bảo SSH hoạt động bình thường.
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29670b09-b073-4edd-a857-8064a32709a8" />
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4d5b9ab-496a-4cbe-8930-218d794b8589" />
 
+- truy cập SSH vào Ubuntu từ cmd của windows
+   - BƯỚC 1: Lấy IP của Ubuntu
+Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2f3fd3c-2dcd-41a3-8d91-63b0bef835c8" />
+
+   - BƯỚC 2: Mở CMD trên Windows
+- gõ lệnh : ssh xuantrang@192.168.18.128
+- sau đó máy sẽ hỏi : Are you sure you want to continue connecting (yes/no/[fingerprint])?. chọn yes và sau đó nhập mật khẩu của ubuntu.
+- cấu hình SSH trên Ubuntu và sử dụng lệnh ssh từ máy Windows để kết nối đến máy Ubuntu thông qua địa chỉ IP. Sau khi nhập đúng thông tin đăng nhập, hệ thống hiển thị màn hình chào của Ubuntu, chứng tỏ kết nối SSH thành công.
+   - <img width="1022" height="827" alt="image" src="https://github.com/user-attachments/assets/28ab4b05-0056-4904-832f-7f17ed051210" />
+
+2. Tìm hiểu các lệnh cơ bản của ubuntu
+   >    - Liệt kê các file trong thư mục: ls
+   >    - Tạo thư mục: mkdir nameFolder
+   >    - Chuyển thư mục làm việc: cd path
+   >    - Copy file: cp file_nguồn path/file_đích
+   - <img width="806" height="139" alt="image" src="https://github.com/user-attachments/assets/bec52b45-6441-4d88-82f7-82a55c955420" />
+   >    - Edit file: sudo nano tenfile
+   >       + CTRL+o : lưu nội dung sau khi edit
+   >       + CTRL+x : thoát edit file
+   >      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f57a413-12ee-4070-900f-c51262337ed4" />
+   >    - Thay đổi quyền thao tác file: sudo chmod  xxx filename
+   - <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f2e1ec2-0081-4b68-8583-7bb7261b1e33" />
+   - Lệnh chmod 777 được sử dụng để cấp toàn quyền (đọc, ghi, thực thi) cho tất cả người dùng đối với file.
+
+
+3. Cài đặt docker cho Ubuntu
+BƯỚC 1: Cập nhật hệ thống : sudo apt update
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fbc6ddb-0a8c-42b8-9147-084d756919b8" />
+
+BƯỚC 2: Cài Docker : sudo apt install docker.io -y
