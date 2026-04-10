@@ -28,7 +28,7 @@
 6. Tìm hiểu tập lệnh của docker và docker compose
 7. Đảm bảo tường lửa trên Ubuntu đã cho phép các cổng 80, 1880, 9630 (Lệnh: sudo ufw allow ...)
  # BÀI LÀM 
- 1. Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
+# 1. Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
  -  Cài đặt hệ điều hành Ubuntu 24.04.4 LTS
  -  Sử dụng một trong các công cụ để giả lập:  VM_Ware
  -  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/049e7fd6-f043-4cff-9be2-2b4f0da74132" />
@@ -50,7 +50,7 @@ Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
 - cấu hình SSH trên Ubuntu và sử dụng lệnh ssh từ máy Windows để kết nối đến máy Ubuntu thông qua địa chỉ IP. Sau khi nhập đúng thông tin đăng nhập, hệ thống hiển thị màn hình chào của Ubuntu, chứng tỏ kết nối SSH thành công.
    - <img width="1022" height="827" alt="image" src="https://github.com/user-attachments/assets/28ab4b05-0056-4904-832f-7f17ed051210" />
 
-2. Tìm hiểu các lệnh cơ bản của ubuntu
+# 2. Tìm hiểu các lệnh cơ bản của ubuntu
    >    - Liệt kê các file trong thư mục: ls
    >    - Tạo thư mục: mkdir nameFolder
    >    - Chuyển thư mục làm việc: cd path
@@ -65,8 +65,8 @@ Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
    - Lệnh chmod 777 được sử dụng để cấp toàn quyền (đọc, ghi, thực thi) cho tất cả người dùng đối với file.
 
 
-3. Cài đặt docker cho Ubuntu
-A. Cài Doker
+# 3. Cài đặt docker cho Ubuntu
+# A. Cài Doker
 - BƯỚC 1: Cập nhật hệ thống : sudo apt update
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fbc6ddb-0a8c-42b8-9147-084d756919b8" />
 
@@ -82,26 +82,26 @@ A. Cài Doker
 - <img width="1267" height="792" alt="image" src="https://github.com/user-attachments/assets/69fbc848-d3c1-4784-9cd7-9de4a20aa0db" />
 - => đã cài đặt Docker trên Ubuntu bằng lệnh apt install docker.io, sau đó khởi động dịch vụ Docker và cấu hình để Docker tự động chạy khi khởi động hệ thống. Cuối cùng, kiểm tra bằng lệnh docker run hello-world và nhận được kết quả thành công.
 
-B. Cài Docker Compose
+# B. Cài Docker Compose
  Cài Docker Compose : sudo apt update
 sudo apt install docker-compose-v2 -y
 <img width="1205" height="672" alt="image" src="https://github.com/user-attachments/assets/9c8e067d-9306-4b10-ba5d-87d2f7909174" />
 
-4. Kiểm tra phiên bản docker vừa cài đặt, kiểm tra phiên bản của docker compose
+# 4. Kiểm tra phiên bản docker vừa cài đặt, kiểm tra phiên bản của docker compose
  Kiểm tra Docker : docker --version
 <img width="1263" height="733" alt="image" src="https://github.com/user-attachments/assets/6df883d3-c50f-4ef2-b3cc-5e8bc7096cb7" />
  Kiểm tra phiên bản Docker compose :
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08e29431-b80d-45fd-8322-68182b7437bd" />
 
-5. Cấu hình để docker chạy mà không cần tiền tố sudo
+# 5. Cấu hình để docker chạy mà không cần tiền tố sudo
 
-# BƯỚC 1: Thêm user vào nhóm docker 
-- sudo usermod -aG docker $USER
-# BƯỚC 2: Áp dụng thay đổi
-- newgrp docker
-# BƯỚC 3: TEST
-- docker run hello-world
-# KẾT QUẢ:
-- đã cấu hình để Docker có thể chạy mà không cần sử dụng sudo bằng cách thêm user vào nhóm docker và áp dụng thay đổi. Sau đó, kiểm tra và chạy container thành công mà không cần sudo.
+- BƯỚC 1: Thêm user vào nhóm docker 
+> - sudo usermod -aG docker $USER
+- BƯỚC 2: Áp dụng thay đổi
+> - newgrp docker
+- BƯỚC 3: TEST
+> - docker run hello-world
+- KẾT QUẢ:
+> - đã cấu hình để Docker có thể chạy mà không cần sử dụng sudo bằng cách thêm user vào nhóm docker và áp dụng thay đổi. Sau đó, kiểm tra và chạy container thành công mà không cần sudo.
 <img width="1204" height="808" alt="image" src="https://github.com/user-attachments/assets/416b1de7-23f1-46ae-ab3e-d9e4586e4e53" />
 
