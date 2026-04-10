@@ -66,6 +66,7 @@ Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
 
 
 3. Cài đặt docker cho Ubuntu
+A. Cài Doker
 - BƯỚC 1: Cập nhật hệ thống : sudo apt update
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fbc6ddb-0a8c-42b8-9147-084d756919b8" />
 
@@ -76,6 +77,13 @@ Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
   > - Bật Docker : sudo systemctl start docker
   > - Cho Docker tự chạy khi bật máy: sudo systemctl enable docker
 <img width="1205" height="695" alt="image" src="https://github.com/user-attachments/assets/129942db-8c07-4f39-9012-99cd41cc8eba" />
+
+  
+B. Cài Docker Compose
+
+- BƯỚC 1: Cài Docker Compose : sudo apt install docker-compose -y
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6e06a7a-093c-47e2-86e6-cf9bb2a8a008" />
+
 4. Kiểm tra phiên bản docker vừa cài đặt, kiểm tra phiên bản của docker compose
  Kiểm tra Docker : docker --version
 <img width="1263" height="733" alt="image" src="https://github.com/user-attachments/assets/6df883d3-c50f-4ef2-b3cc-5e8bc7096cb7" />
