@@ -151,3 +151,12 @@ sudo apt install docker-compose-v2 -y
 - Mở port 9630
 > - sudo ufw allow 9630
 <img width="667" height="71" alt="image" src="https://github.com/user-attachments/assets/f26c9d35-4a6d-47f2-b472-d92ace3877ee" />
+
+- Bật firewall
+> - sudo ufw enable
+> - Nếu có hỏi: Proceed with operation (y/n)? . gõ y
+<img width="654" height="71" alt="image" src="https://github.com/user-attachments/assets/5dd6c4d2-f93b-4099-b2a4-1d2a107df51c" />
+
+- Kiểm tra lại
+> - sudo ufw status
+<img width="670" height="294" alt="image" src="https://github.com/user-attachments/assets/9496f471-ebdf-49a4-aa2d-dd759813eab9" />
