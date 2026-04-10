@@ -66,7 +66,21 @@ Trong Ubuntu, gõ: ip -4 addr để xem ip của máy ubuntu
 
 
 3. Cài đặt docker cho Ubuntu
-BƯỚC 1: Cập nhật hệ thống : sudo apt update
+- BƯỚC 1: Cập nhật hệ thống : sudo apt update
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fbc6ddb-0a8c-42b8-9147-084d756919b8" />
 
-BƯỚC 2: Cài Docker : sudo apt install docker.io -y
+- BƯỚC 2: Cài Docker : sudo apt install docker.io -y
+<img width="1272" height="710" alt="image" src="https://github.com/user-attachments/assets/6335a57e-adbc-4c6d-bb01-675bf7e82726" />
+
+- BƯỚC 3:
+  > - Bật Docker : sudo systemctl start docker
+  > - Cho Docker tự chạy khi bật máy: sudo systemctl enable docker
+<img width="1205" height="695" alt="image" src="https://github.com/user-attachments/assets/129942db-8c07-4f39-9012-99cd41cc8eba" />
+4. Kiểm tra phiên bản docker vừa cài đặt, kiểm tra phiên bản của docker compose
+ Kiểm tra Docker : docker --version
+<img width="1263" height="733" alt="image" src="https://github.com/user-attachments/assets/6df883d3-c50f-4ef2-b3cc-5e8bc7096cb7" />
+
+- BƯỚC 5 : Test Docker : sudo docker run hello-world
+- <img width="1267" height="792" alt="image" src="https://github.com/user-attachments/assets/69fbc848-d3c1-4784-9cd7-9de4a20aa0db" />
+ - => đã cài đặt Docker trên Ubuntu bằng lệnh apt install docker.io, sau đó khởi động dịch vụ Docker và cấu hình để Docker tự động chạy khi khởi động hệ thống. Cuối cùng, kiểm tra bằng lệnh docker run hello-world và nhận được kết quả thành công.
+
