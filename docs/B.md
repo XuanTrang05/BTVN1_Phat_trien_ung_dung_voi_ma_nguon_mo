@@ -105,3 +105,49 @@ sudo apt install docker-compose-v2 -y
 > - đã cấu hình để Docker có thể chạy mà không cần sử dụng sudo bằng cách thêm user vào nhóm docker và áp dụng thay đổi. Sau đó, kiểm tra và chạy container thành công mà không cần sudo.
 <img width="1204" height="808" alt="image" src="https://github.com/user-attachments/assets/416b1de7-23f1-46ae-ab3e-d9e4586e4e53" />
 
+# 6. Tìm hiểu tập lệnh của docker và docker compose
+# A. Docker
+1. Xem container đang chạy
+- docker ps
+<img width="759" height="46" alt="image" src="https://github.com/user-attachments/assets/c4bdc9d1-579a-4e42-accc-8826795bdd12" />
+
+2. Xem tất cả container
+- docker ps -a
+<img width="1141" height="92" alt="image" src="https://github.com/user-attachments/assets/39fda01f-4b1e-470b-a97c-af866acbf103" />
+
+3. Chạy container
+- docker run hello-world
+<img width="1193" height="779" alt="image" src="https://github.com/user-attachments/assets/620f709a-f6b8-4601-94a7-87117f14b94b" />
+
+4. Xóa container
+- docker rm ID_container
+<img width="1232" height="138" alt="image" src="https://github.com/user-attachments/assets/2a50a2f8-f069-47d9-85d8-dcd8e7e43c57" />
+
+5. Xem image
+- docker images
+<img width="1173" height="116" alt="image" src="https://github.com/user-attachments/assets/67133603-7e4e-4d72-b606-75be51d15654" />
+
+6.Xóa image
+- docker rmi ID_image
+
+# B. Docker compose
+1. Chạy hệ thống
+- docker compose up -d
+2. Dừng hệ thống
+- docker compose down
+3. Xem container
+- docker compose ps
+<img width="786" height="155" alt="image" src="https://github.com/user-attachments/assets/7119d12a-02cd-4a5c-b1ac-d93794def65d" />
+
+# 7. Đảm bảo tường lửa trên Ubuntu đã cho phép các cổng 80, 1880, 9630 (Lệnh: sudo ufw allow ...)
+- Mở port 80
+> - sudo ufw allow 80
+<img width="662" height="94" alt="image" src="https://github.com/user-attachments/assets/a2d9729a-5134-40cf-9c62-f1a24d8d7ec1" />
+
+- Mở port 1880
+> - sudo ufw allow 1880
+<img width="676" height="68" alt="image" src="https://github.com/user-attachments/assets/c845f4bd-55b8-4a6b-8f46-772673b8ee7c" />
+
+- Mở port 9630
+> - sudo ufw allow 9630
+<img width="667" height="71" alt="image" src="https://github.com/user-attachments/assets/f26c9d35-4a6d-47f2-b472-d92ace3877ee" />
