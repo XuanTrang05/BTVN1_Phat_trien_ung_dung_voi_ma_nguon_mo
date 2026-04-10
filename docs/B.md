@@ -78,17 +78,20 @@ A. Cài Doker
   > - Cho Docker tự chạy khi bật máy: sudo systemctl enable docker
 <img width="1205" height="695" alt="image" src="https://github.com/user-attachments/assets/129942db-8c07-4f39-9012-99cd41cc8eba" />
 
-  
+- BƯỚC 4 : Test Docker : sudo docker run hello-world
+- <img width="1267" height="792" alt="image" src="https://github.com/user-attachments/assets/69fbc848-d3c1-4784-9cd7-9de4a20aa0db" />
+ - => đã cài đặt Docker trên Ubuntu bằng lệnh apt install docker.io, sau đó khởi động dịch vụ Docker và cấu hình để Docker tự động chạy khi khởi động hệ thống. Cuối cùng, kiểm tra bằng lệnh docker run hello-world và nhận được kết quả thành công.
+ - 
 B. Cài Docker Compose
 
-- BƯỚC 1: Cài Docker Compose : sudo apt install docker-compose -y
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f6e06a7a-093c-47e2-86e6-cf9bb2a8a008" />
+ Cài Docker Compose : sudo apt update
+sudo apt install docker-compose-v2 -y
+<img width="1205" height="672" alt="image" src="https://github.com/user-attachments/assets/9c8e067d-9306-4b10-ba5d-87d2f7909174" />
 
 4. Kiểm tra phiên bản docker vừa cài đặt, kiểm tra phiên bản của docker compose
  Kiểm tra Docker : docker --version
 <img width="1263" height="733" alt="image" src="https://github.com/user-attachments/assets/6df883d3-c50f-4ef2-b3cc-5e8bc7096cb7" />
+ Kiểm tra Docker compose :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08e29431-b80d-45fd-8322-68182b7437bd" />
 
-- BƯỚC 5 : Test Docker : sudo docker run hello-world
-- <img width="1267" height="792" alt="image" src="https://github.com/user-attachments/assets/69fbc848-d3c1-4784-9cd7-9de4a20aa0db" />
- - => đã cài đặt Docker trên Ubuntu bằng lệnh apt install docker.io, sau đó khởi động dịch vụ Docker và cấu hình để Docker tự động chạy khi khởi động hệ thống. Cuối cùng, kiểm tra bằng lệnh docker run hello-world và nhận được kết quả thành công.
 
