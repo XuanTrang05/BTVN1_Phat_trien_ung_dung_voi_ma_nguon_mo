@@ -53,5 +53,11 @@
 <img width="679" height="97" alt="image" src="https://github.com/user-attachments/assets/166d6996-2af1-4638-b032-ed1a74553ca7" />
 <img width="1087" height="172" alt="image" src="https://github.com/user-attachments/assets/bb9876e9-6102-4f80-ac4c-f903dd61e14a" />
 
-- Mount thư mục ./myweb thành thư mục /myweb trong nginx
+-  Mount thư mục ./myweb thành thư mục /myweb trong nginx
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a23e4ae6-fd63-4358-b362-b7df57342b9f" />
+
+-  Mount file **./nginx/nginx.conf** vào file **/etc/nginx/nginx.conf** trong nginx
+<img width="1257" height="669" alt="image" src="https://github.com/user-attachments/assets/b0a35022-edfc-411d-9a11-b90f3b4a8e5a" />
+
+
   
