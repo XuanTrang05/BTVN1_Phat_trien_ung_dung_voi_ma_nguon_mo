@@ -60,4 +60,13 @@ SỬA docker-compose.yml (THÊM myapi)
 	> - mở file:
 		- nano nginx/nginx.conf
 - THÊM / SỬA BLOCK /api
+  <img width="1234" height="809" alt="image" src="https://github.com/user-attachments/assets/b2f3eb67-de36-47bf-ada6-96becbeb9280" />
+  - CHẠY LẠI TOÀN BỘ CONTAINER
+ > - Sau khi sửa nginx.conf:
+		- docker compose down
+		- docker compose up -d --build
+- TEST : http://192.168.18.128:9630/fun?tien=100
+<img width="1240" height="881" alt="image" src="https://github.com/user-attachments/assets/8c827c0f-0eea-458d-a9fb-4ecfd15ede1d" />
+
+
 
