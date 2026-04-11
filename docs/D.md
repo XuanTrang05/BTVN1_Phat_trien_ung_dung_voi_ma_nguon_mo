@@ -49,3 +49,15 @@ TẠO FILE ./myapi/Dockerfile
 <img width="759" height="103" alt="image" src="https://github.com/user-attachments/assets/48d8b000-42b7-48ca-8171-d4d1285d2eee" />
 
 # 5. Sửa đổi docker-compose để sử dụng myapp (xem phần tham khảo ở dưới)
+SỬA docker-compose.yml (THÊM myapi)
+- Mở file:
+> - nano docker-compose.yml
+- THÊM SERVICE myapi
+<img width="1192" height="784" alt="image" src="https://github.com/user-attachments/assets/228d7fb7-c7e1-4134-9117-ba3242297f66" />
+
+# 6. Sửa đổi nginx/nginx.conf để /api trỏ tới service myapp cổng 9630
+ - SỬA nginx/nginx.conf
+	> - mở file:
+		- nano nginx/nginx.conf
+- THÊM / SỬA BLOCK /api
+
