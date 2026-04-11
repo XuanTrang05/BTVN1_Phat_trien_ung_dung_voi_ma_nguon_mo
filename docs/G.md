@@ -56,3 +56,30 @@ D --> E
 
 -  Cấu hình router
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b762947-a43f-4beb-ad05-040f68398b7a" />
+<img width="927" height="783" alt="image" src="https://github.com/user-attachments/assets/4fe72f0c-0c21-4977-8d01-ebfe1e120bbb" />
+
+# 2. Convert lệnh docker run ... sang dạng docker compose
+- Sau khi convert, toàn bộ hệ thống có thể được khởi chạy chỉ bằng một lệnh duy nhất:
+  > - docker compose up -d
+<img width="1100" height="203" alt="image" src="https://github.com/user-attachments/assets/fcbfb923-38dd-44d1-b41e-c81c2046e51f" />
+
+# 3. Khai báo kết quả convert vào trong file docker-compose.yml
+- Bước 1: Kiểm tra các container đang chạy
+   > - docker ps
+- Bước 2: Xác định lệnh docker run ban đầu
+- Bước 3: Tạo file docker-compose.yml
+- Bước 4: Chuyển đổi cấu hình vào docker-compose
+- Bước 5: Khởi chạy hệ thống bằng Docker Compose
+   > - docker compose up -d
+<img width="1106" height="206" alt="image" src="https://github.com/user-attachments/assets/1a5e388d-2e7b-49bd-a5b6-4b44b2b266fd" />
+
+#  4. Chạy lại docker compose
+- docker compose up -d
+ > - Ý nghĩa của lệnh
+docker compose up: khởi động toàn bộ các service đã khai báo trong file docker-compose.yml
+  -d: chạy ở chế độ nền (background), không chiếm terminal
+Kiểm tra kết quả
+Có thể kiểm tra trạng thái các container bằng: docker ps
+<img width="1106" height="272" alt="image" src="https://github.com/user-attachments/assets/0f2d93f5-31f3-473d-be28-1663a353f4af" />
+
+# 5. Public ứng dụng bằng cách thêm 1 router trỏ tới container đang chạy trong docker, dữ liệu sẽ đi qua tunnel, url dạng sub-domain
