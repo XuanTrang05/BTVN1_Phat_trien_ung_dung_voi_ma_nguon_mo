@@ -34,4 +34,17 @@
 - nano myweb/index.html
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b1ef65d9-3823-4d2e-a9ca-0ebfba04c168" />
 
+# 5. Tạo file **docker-compose.yml** để nó sẽ có các dịch vụ sau:
+- tạo file  **docker-compose.yml**
+- gõ: nano docker-compose.yml  để tạo file
+- Khai báo sử dụng nodered/node-red, cổng 1880, dữ liệu nằm tại thư mục ./nodered
+- Khai báo sử dụng nginx, cổng 80, cấu hình trong file ./nginx/nginx.conf
+- Mount thư mục ./myweb thành thư mục /myweb trong nginx
+<img width="1289" height="822" alt="image" src="https://github.com/user-attachments/assets/7b809414-07d4-496e-a66b-a052558a56d8" />
+- tạo thư mục Nginx và nodered ( vì máy chưa có)
+> - mkdir nginx
+> - mkdir nodered
+<img width="693" height="112" alt="image" src="https://github.com/user-attachments/assets/733dbd4f-4633-42c3-9cb6-a1565d754b94" />
 
+
+- 
