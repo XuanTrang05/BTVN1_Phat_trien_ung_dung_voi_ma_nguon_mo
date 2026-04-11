@@ -56,7 +56,7 @@ D --> E
 
 -  Cấu hình router
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b762947-a43f-4beb-ad05-040f68398b7a" />
-<img width="927" height="783" alt="image" src="https://github.com/user-attachments/assets/4fe72f0c-0c21-4977-8d01-ebfe1e120bbb" />
+
 
 # 2. Convert lệnh docker run ... sang dạng docker compose
 - Sau khi convert, toàn bộ hệ thống có thể được khởi chạy chỉ bằng một lệnh duy nhất:
@@ -83,3 +83,18 @@ Có thể kiểm tra trạng thái các container bằng: docker ps
 <img width="1106" height="272" alt="image" src="https://github.com/user-attachments/assets/0f2d93f5-31f3-473d-be28-1663a353f4af" />
 
 # 5. Public ứng dụng bằng cách thêm 1 router trỏ tới container đang chạy trong docker, dữ liệu sẽ đi qua tunnel, url dạng sub-domain
+<img width="927" height="783" alt="image" src="https://github.com/user-attachments/assets/4fe72f0c-0c21-4977-8d01-ebfe1e120bbb" />
+- nginx reverse proxy (bên trong container)
+web domain → nginx → /api → Flask API : routing nội bộ trong hệ thống
+
+# 6. Kiểm tra url sub-domain đã hoạt động public cho mọi end-user
+- [https://web.hoangthixuantrang.id.vn/]
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/355f43e7-780a-4de9-be87-5b796478d98f" />
+
+
+- [ https://nodered.hoangthixuantrang.id.vn/]
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/acce151b-351b-4a0c-8555-bf527790337e" />
+
+[ api.hoangthixuantrang.id.vn/]
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/502576d5-0417-4eab-88e3-9969204be2bc" />
+
