@@ -59,5 +59,9 @@
 -  Mount file **./nginx/nginx.conf** vào file **/etc/nginx/nginx.conf** trong nginx
 <img width="1257" height="669" alt="image" src="https://github.com/user-attachments/assets/b0a35022-edfc-411d-9a11-b90f3b4a8e5a" />
 
+# 6. Edit file **./nginx/nginx.conf** để: 
+- Cấu hình web server cổng 80
+  > - Mở file cấu hình
+   nano nginx/nginx.conf
 
   
