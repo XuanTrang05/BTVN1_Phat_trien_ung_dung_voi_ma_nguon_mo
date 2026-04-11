@@ -1,4 +1,4 @@
-<img width="825" height="419" alt="image" src="https://github.com/user-attachments/assets/e172a829-aef5-49d2-a2f7-f3788a03211e" />### C. Cấu hình docker compose:
+### C. Cấu hình docker compose:
 1. Tạo thư mục: ~/myapp
 2. Chuyển vào trong thư mục ~/myapp
 3. Tạo thư mục: ./myweb
