@@ -1,4 +1,4 @@
-### C. Cấu hình docker compose:
+<img width="825" height="419" alt="image" src="https://github.com/user-attachments/assets/e172a829-aef5-49d2-a2f7-f3788a03211e" />### C. Cấu hình docker compose:
 1. Tạo thư mục: ~/myapp
 2. Chuyển vào trong thư mục ~/myapp
 3. Tạo thư mục: ./myweb
@@ -63,5 +63,33 @@
 - Cấu hình web server cổng 80
   > - Mở file cấu hình
    nano nginx/nginx.conf
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d519bf9d-87c6-43ef-b7ed-fa0c1eddce93" />
 
-  
+- location / trỏ tới root là thư mục /myweb
+  > - Mở file cấu hình
+   nano nginx/nginx.conf
+<img width="1263" height="838" alt="image" src="https://github.com/user-attachments/assets/3f9ad671-5947-4b5e-b65b-79be2c9d110e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1fbdf53-ba91-4a38-b36b-9fb9883ee894" />
+
+ - location /api dùng proxy_pass trỏ tới 1 (hoặc nhiều) node http_in của nodered
+   > - Tạo api trong node-Red
+<img width="1294" height="912" alt="image" src="https://github.com/user-attachments/assets/b4976fd7-e8ee-42ac-885c-f39ba24b16ea" />
+<img width="825" height="419" alt="image" src="https://github.com/user-attachments/assets/118aeca0-8813-461b-b211-115a0901568b" />
+- Test qua nginx (proxy)
+<img width="626" height="272" alt="image" src="https://github.com/user-attachments/assets/d27c5685-e749-4bce-90df-b79baa635cf8" />
+
+7. Edit file **./nodered/settings.js** để nodered bắt buộc đăng nhập
+- Chạy docker-compose lần đầu để Node-RED tự sinh file cấu hình trong thư mục ./nodered, sau đó mới tiến hành sửa settings.js và restart lại container
+> - BƯỚC 1: Đảm bảo đã có file settings.js
+    - ls nodered
+> - BƯỚC 2: Tạo mật khẩu
+   - docker exec -it mynodered node-red admin hash-pw [nhập password (ví dụ: 123456)] [ thì sẽ ra dang: $2b$08$xxxxxxxxxxxxxxxxxxxxxxxxxxxxx]
+> - BƯỚC 2: Mở file
+     - nano nodered/settings.js
+> - BƯỚC 4: Sửa settings.js
+   - tiến hành sửa mật khẩu và lưu file
+> - BƯỚC 5: Restart Node-RED
+> - BƯỚC 6: TEST
+- Mở: http://IP_UBUNTU:1880
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f7dff21-5115-43a6-b4aa-b9313567dfcb" />
+
