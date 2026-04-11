@@ -52,4 +52,7 @@ D --> E
   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/97c6688b-4c48-470e-9a59-2b67de68d78a" />
 - chạy lại docker
 <img width="1173" height="644" alt="image" src="https://github.com/user-attachments/assets/572e44c2-8996-4414-a359-cc7d99c21c4d" />
+- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/193b5305-e420-43fe-b1e2-c1ea1cfbc371" />
 
+-  Cấu hình router
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b762947-a43f-4beb-ad05-040f68398b7a" />
