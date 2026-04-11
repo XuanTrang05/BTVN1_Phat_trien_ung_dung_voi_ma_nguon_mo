@@ -42,6 +42,34 @@
 # 5. Sử dụng nodered: kéo nodered http_in , http_response, function : để tạo api get đơn giản (dùng cho /api proxy_pass của nginx)
 
 - kéo nodered http_in , http_response, function
-<img width="908" height="438" alt="image" src="https://github.com/user-attachments/assets/f5c47f07-ba2a-4ed1-8d2a-a2f117a7764d" />
+<img width="1341" height="858" alt="image" src="https://github.com/user-attachments/assets/36245e6d-02d5-4d4d-bc4c-2f7c19e30e23" />
 - TEST
-<img width="756" height="329" alt="image" src="https://github.com/user-attachments/assets/f2001993-b28d-4399-b7e9-4fe671f9c252" />
+<img width="692" height="301" alt="image" src="https://github.com/user-attachments/assets/f191a464-5018-49fe-a3bc-6c6db842c5e4" />
+
+# 6. Sửa file ./myweb/index.html : thêm code html+js để sử dụng được api đã khai báo proxy_pass (thực ra là sử dụng nodered http_in hoặc sử dụng service myapi)
+MỤC TIÊU
+- web sẽ có :
+> - nhập tiền
+> - bấm nút
+> -gọi:
+    - /api?tien=100
+- trả kết quả từ:
+Node-RED hoặc Flask myapi
+
+- BƯỚC 1: MỞ FILE INDEX VÀ SỬA FILE
+> - nano myweb/index.html
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f814e884-8609-4a3c-a8b9-4ce512ba452d" />
+BƯỚC 2: RELOAD DOCKER
+  > - docker compose down
+  > - docker compose up -d
+<img width="1178" height="393" alt="image" src="https://github.com/user-attachments/assets/247e2d8e-78a3-462d-94d1-ee54cd79ddf6" />
+- KẾT QUẢ
+- TEST : http://192.168.18.128 HOẶC hoangthixuantrang.id.vn
+  > - hoangthixuantrang.id.vn
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/12744000-3434-445c-9a72-348909e7299b" />
+
+ > -  http://192.168.18.128/
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b4952eac-28fe-4f43-a98e-2a30bce20c04" />
+
+
+
