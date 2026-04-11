@@ -37,14 +37,21 @@
 # 5. Tạo file **docker-compose.yml** để nó sẽ có các dịch vụ sau:
 - tạo file  **docker-compose.yml**
 - gõ: nano docker-compose.yml  để tạo file
-- Khai báo sử dụng nodered/node-red, cổng 1880, dữ liệu nằm tại thư mục ./nodered
-- Khai báo sử dụng nginx, cổng 80, cấu hình trong file ./nginx/nginx.conf
-- Mount thư mục ./myweb thành thư mục /myweb trong nginx
+
 <img width="1289" height="822" alt="image" src="https://github.com/user-attachments/assets/7b809414-07d4-496e-a66b-a052558a56d8" />
+
 - tạo thư mục Nginx và nodered ( vì máy chưa có)
-> - mkdir nginx
-> - mkdir nodered
+   > - mkdir nginx
+   > - mkdir nodered
 <img width="693" height="112" alt="image" src="https://github.com/user-attachments/assets/733dbd4f-4633-42c3-9cb6-a1565d754b94" />
 
+- Khai báo sử dụng nodered/node-red, cổng 1880, dữ liệu nằm tại thư mục ./nodered
 
-- 
+- Khai báo sử dụng nginx, cổng 80, cấu hình trong file ./nginx/nginx.conf
+  - nano nginx/nginx.conf
+<img width="1063" height="818" alt="image" src="https://github.com/user-attachments/assets/494db18a-c99c-4f36-9db1-f8f5dd36b779" />
+<img width="679" height="97" alt="image" src="https://github.com/user-attachments/assets/166d6996-2af1-4638-b032-ed1a74553ca7" />
+<img width="1087" height="172" alt="image" src="https://github.com/user-attachments/assets/bb9876e9-6102-4f80-ac4c-f903dd61e14a" />
+
+- Mount thư mục ./myweb thành thư mục /myweb trong nginx
+  
