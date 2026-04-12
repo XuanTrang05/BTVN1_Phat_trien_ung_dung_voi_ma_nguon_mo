@@ -9,7 +9,12 @@
  - Mssv: k225480106064
  - Lớp 58KTP
 # NỘI DUNG BÀI
-
+- [Phần A](A.md)
+- [Phần B](B.md)
+- [Phần C](C.md)
+- [Phần E](E.md)
+- [Phần F](F.md)
+- [Phần G](G.md)
 
 # ĐỀ BÀI
 
