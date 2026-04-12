@@ -4,6 +4,12 @@
 **Bài tập 01:** 
 
 ## deadline : 23h59 ngày 13 tháng 4 năm 2026.
+ - Môn:Phát triển ứng dụng mã nguồn mở
+ - Họ và tên sinh viên: Hoàng Thị Xuân Trang
+ - Mssv: k225480106064
+ - Lớp 58KTP
+# NỘI DUNG BÀI
+
 
 # ĐỀ BÀI
 
